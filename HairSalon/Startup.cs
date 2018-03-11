@@ -6,6 +6,10 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace HairSalon
 {
+  public static class DBConfiguration
+  {
+    public static string ConnectionString = "server=localhost;user id=root;password=root;port=8889;database=angelo_russoniello;";
+  }
     public class Startup
     {
         public Startup(IHostingEnvironment env)
@@ -25,7 +29,6 @@ namespace HairSalon
 
         public void Configure(IApplicationBuilder app)
         {
-            // app.UseDeveloperExceptionPage(); //Debbugger razor views turn it On/Off
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
@@ -38,8 +41,4 @@ namespace HairSalon
             });
         }
     }
-    public static class DBConfiguration
-  {
-      public static string ConnectionString = "server=localhost;user id=root;password=root;port=8889;database=type here the database's name;";
-  }
 }
