@@ -1,0 +1,3 @@
+C:\Users\Angelo\desktop\HairSalonProject\HairSalon.Tests\obj\Debug\netcoreapp1.1\MVC_Templete.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Angelo\desktop\HairSalonProject\HairSalon.Tests\obj\Debug\netcoreapp1.1\MVC_Templete.Tests.AssemblyInfoInputs.cache
+C:\Users\Angelo\desktop\HairSalonProject\HairSalon.Tests\obj\Debug\netcoreapp1.1\MVC_Templete.Tests.AssemblyInfo.cs
